@@ -1,42 +1,32 @@
 [
   {
-    "id": "1",
     "name": "Website Redesign",
     "description": "Redesign the company website",
     "status": "In Progress",
-    "startDate": "2025-03-01",
-    "endDate": "2025-05-15",
+    "endDate": "2025-05-15"
   },
   {
-    "id": "2",
     "name": "Mobile App Development",
     "description": "Develop a new mobile application",
     "status": "Planning",
-    "startDate": "2025-04-10",
-    "endDate": "2025-07-30",
+    "endDate": "2025-07-30"
   },
   {
-    "id": "3",
     "name": "Marketing Campaign",
     "description": "Q2 Marketing Campaign",
     "status": "Completed",
-    "startDate": "2025-01-15",
-    "endDate": "2025-03-31",
+    "endDate": "2025-03-31"
   },
   {
-    "id": "4",
     "name": "Product Launch",
     "description": "New product launch preparation",
     "status": "In Progress",
-    "startDate": "2025-03-15",
-    "endDate": "2025-06-01",
+    "endDate": "2025-06-01"
   },
   {
-    "id": "5",
     "name": "Infrastructure Upgrade",
     "description": "Upgrade server infrastructure",
     "status": "Planning",
-    "startDate": "2025-05-01",
-    "endDate": "2025-06-15",
+    "endDate": "2025-06-15"
   }
 ]
