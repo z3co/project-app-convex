@@ -58,9 +58,11 @@ export default function DashboardPage() {
                 Manage and track all your projects in one place
               </p>
             </div>
-            <Button>
-              <PlusCircle className="mr-2 h-4 w-4" />
-              New Project
+            <Button asChild>
+              <Link href="/project/new">
+                <PlusCircle className="mr-2 h-4 w-4" />
+                New Project
+              </Link>
             </Button>
           </div>
 
@@ -202,12 +204,13 @@ export default function DashboardPage() {
                               Priority:
                             </span>
                             <span
-                              className={`ml-1 font-medium ${project.priority === "High"
+                              className={`ml-1 font-medium ${
+                                project.priority === "High"
                                   ? "text-destructive"
                                   : project.priority === "Medium"
                                     ? "text-amber-500"
                                     : "text-green-500"
-                                }`}
+                              }`}
                             >
                               {"Low"}
                             </span>
@@ -216,9 +219,7 @@ export default function DashboardPage() {
 
                         <div className="text-sm">
                           <span className="text-muted-foreground">Team:</span>
-                          <span className="ml-1 font-medium">
-                            1 members
-                          </span>
+                          <span className="ml-1 font-medium">1 members</span>
                         </div>
                       </div>
                     </CardContent>
